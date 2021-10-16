@@ -1,0 +1,55 @@
+﻿/*not yet implemented in .aspx file*/
+
+@charset "utf-8";
+
+/*
+html {
+    
+}*/
+
+
+h1 {
+    margin-top: 1.5px;
+    text-align: center;
+    color: blue;
+    font-family: 'Brush Script MT';
+    font-size: 80px;
+}
+
+
+body {
+    color: white;
+    background-blend-mode: overlay; /* mix-blend-mode: overlay; */
+    background-color: gray;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Palatino, Palatino Linotype, Serif; /*changed the font*/
+    align-items: center; /* i added this style to several elements*/
+    align-content: center;
+    display: block;
+    text-align: center;
+}
+
+
+form {
+    padding: 2px;
+    margin: 2px;
+}
+
+
+#map {
+    /* now works on smaller resolutions like laptops */
+    height: 755px;
+    background-color: #555;
+    box-shadow: -2px -2px 15px 12px #555;
+    
+}
+
+.infoPanel {
+    /*doesn't stack under the map anymore on smaller screens (see .aspx div sections for widths */
+    height: 755px;
+    background-color: steelblue;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
